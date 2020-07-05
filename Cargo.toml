@@ -1,0 +1,15 @@
+[package]
+name = "auth-backend"
+version = "0.1.0"
+authors = ["Jakub Dzieciątko <jdzieciatko@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2"
+actix-rt = "1"
+mongodb = "0.11.0"
+serde = "1"
+jsonwebtoken = "7"
+chrono = "0.4"
